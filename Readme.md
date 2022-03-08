@@ -11,6 +11,21 @@
 - Bug/improvement introduction to committed changes
 - Hurdles we may experience transitioning from a familiarity with TFS and TortoiseSVN
 
+## Dan's Git Experience
+
+- Used casually for personal projects since 2012
+- Joined Banner Eng in 2015. They recently switched from SVN to Git.
+- Usage was primitive. Devs pushed directly to master, no Pull Requests, code reviews, etc.
+- I led effort to develop a organizational Git and testing strategy
+  - Using GitLab as a self-hosted Git server
+  - Using pull requests for code reviews
+  - Continuous integration pipeline with
+    - Automated builds
+    - Unit test verification
+    - Integration tests running on actual hardware
+    - Deployment of build artifacts to shared network drive
+- By the time I left in 2020, over 30 different repositories following this pattern
+
 ## Biggest Differences between Git and TFS
 
 - Distributed vs centralized
